@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Somerbold';
+    src: url(/week\ 4/SomarSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'SomerRegular';
+    src: url(/week\ 4/SomarSans-Regular.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    margin-right: 350px;
+    margin-left: 350px;
+    height: 2000px;
+}
+.purprec{
+    background-color: #7330F4;
+    width: 1300px;
+    height: 1100px;
+    border-radius: 220px;
+    z-index: -3;
+    position: absolute;
+left: -525px;
+    bottom: 110px;
+display: inline-block;
+    transform: rotate(-50deg);
+}
+.greenrec{
+    background-color: #20EDB3;
+    width: 650px;
+    height: 1400px;
+    border-radius: 175px;
+    z-index: -2;
+    position: absolute;
+left: 25px;
+bottom: -375px;
+display: inline-block;
+    transform: rotate(-45deg);
+}
+.navstick{
+    position: fixed;
+    z-index: 10;
+    transition: 0.3;
+ }
+.navright{
+   position: absolute; 
+   left: 16.8cm;
+   width: 750px;
+   top: 15px;
+}
+.navright img{
+    width: 52px;
+    height: 52px;
+    display: inline;
+    margin-left:10px ;
+
+}
+ul {
+    display:flex;
+    
+ }
+ ul li{
+    display: flex;
+    margin: 10px;
+    margin-top: 15px;
+    font-family:'SomerRegular';
+    
+ }
+ ul li a{
+    display:flex;
+    text-decoration: none;
+    color: black;
+ }
+ 
+ .navleft{
+position: absolute;
+top: 15px; 
+ }
+ .navleft img{
+   position: relative;
+    width: 35px;
+   margin-right: 20px;
+   margin-top:13px ;
+   left: 18px;
+   
+ }
+ .navleft ul li a{
+    display:flex;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    left: 20px;
+    font-size: 14.5px;
+ }
+ .line{
+    width: 1200px;
+    position: relative;
+    left: 10px;
+ }
+ 
+ .undhead{
+position: absolute;
+ }
+ .leftimg{
+    position: relative;
+    top: 110px;
+
+
+ }
+ .leftimg img{
+    width: 70%;
+   
+ }
+ .textbar{
+    position: absolute;
+    left: 750px;
+    display: inline-block;
+    width: 469px;
+    height: 46px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F9F9F9;
+    direction: rtl;
+    font-family: 'SomerRegular';
+    font-size: 16px;
+    top: 150px;
+
+ }
+ .heapa{
+    font-family: 'SomerBold';
+    position: absolute;
+    left: 720px;
+    width: 500px;
+    direction: rtl;
+    color: #7330F4;
+    font-size: 26px;
+    top: 230px;
+ }
+ .heapa h6{
+    font-family: 'SomerRegular';
+    font-size:50px ;
+    line-height: 0.8;
+ }
+ .para1{
+    color: black;
+    opacity: 0.4;
+    font-family: 'SomerRegular';
+    font-size:25px ;
+ }
+ .heapa hr{
+    background-color:#20EDB3;
+    width: 100px;
+top: 20px;
+position: relative;
+ }
+ .para2{
+    color: #7330F4;
+    font-family: 'SomerRegular';
+    font-size:18px ;
+    position: relative;
+    top: 40px;
+ }
+ .button{
+    text-decoration: none;
+    color: white;
+    padding-left:10px ;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-family: 'SomerRegular';
+    background-color: #7330F4;
+    border-radius: 10px;
+    font-size: 18px;
+    position: relative;
+    right: 220px;
+ }
+ .heapa img{
+    position: relative;
+    width: 55%;
+ }
+ .title{
+    color: rgb(78, 78, 78);
+    font-size: 28px;
+    position: relative;
+    top: 110px;
+ }
+ .motherdiv{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 775px;
+
+ }
+ .child1{
+    background-color: white;
+width: 270px;
+height: 330px;
+z-index: 2;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding-left:20px  ;
+padding-top: 20px;
+
+ }
+ .child1 img{
+    width: 90%;
+ }
+ .child2{
+    background-color: white;
+width: 270px;
+height: 330px;
+z-index: 2;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding-left:40px  ;
+padding-top: 20px;
+ }
+ .child2 img{
+    width: 80%;
+ }
+ .child3{
+    background-color: white;
+width: 270px;
+height: 330px;
+z-index: 2;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding-left:px  ;
+padding-top: 20px;
+ }
+ .child3 img{
+    width: 65%;
+ }
+ .child4{
+    background-color: white;
+    width: 270px;
+    height: 330px;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left:20px  ;
+    padding-top: 20px;
+ }
+ .child4 img{
+    width: 85%;
+ }
